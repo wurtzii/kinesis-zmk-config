@@ -29,11 +29,11 @@
 
         symbol_layer {
             bindings = <
-&trans  &trans                &trans           &trans        &trans          &trans     &trans                                                    &trans  &trans  &trans                &trans                 &trans          &trans            &trans
-&trans  &kp NON_US_BACKSLASH  &kp AMPERSAND    &kp ASTERISK  &kp APOSTROPHE  &kp TILDE  &trans                                                    &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDERSCORE  &kp EQUAL         &trans
-&trans  &kp DOUBLE_QUOTES     &kp DOLLAR       &kp PERCENT   &kp CARET       &kp PIPE   &trans          &trans  &trans    &trans  &trans          &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS       &kp PLUS          &trans
-&trans  &trans                &kp EXCLAMATION  &kp AT_SIGN   &kp HASH        &kp GRAVE                          &trans    &trans                          &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN   &kp GREATER_THAN  &trans
-&trans  &trans                &trans           &trans        &trans                             &trans  &trans  &trans    &trans  &trans  &trans                  &trans                &trans                 &trans          &trans            &trans
+&trans  &trans             &trans           &trans        &trans          &trans     &trans                                                    &trans  &trans  &trans                &trans                 &trans          &trans            &trans
+&trans  &kp BACKSLASH      &kp AMPERSAND    &kp ASTERISK  &kp APOSTROPHE  &kp TILDE  &trans                                                    &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDERSCORE  &kp EQUAL         &trans
+&trans  &kp DOUBLE_QUOTES  &kp DOLLAR       &kp PERCENT   &kp CARET       &kp PIPE   &trans          &trans  &trans    &trans  &trans          &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS       &kp PLUS          &trans
+&trans  &trans             &kp EXCLAMATION  &kp AT_SIGN   &kp HASH        &kp GRAVE                          &trans    &trans                          &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN   &kp GREATER_THAN  &trans
+&trans  &trans             &trans           &trans        &trans                             &trans  &trans  &trans    &trans  &trans  &trans                  &trans                &trans                 &trans          &trans            &trans
             >;
         };
 
