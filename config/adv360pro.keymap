@@ -16,7 +16,7 @@
 
         default_layer {
             bindings = <
-&trans        &trans  &trans   &trans    &trans        &trans  &trans                                                                    &trans  &trans  &trans         &trans     &trans   &trans    &trans
+&tog 1        &trans  &trans   &trans    &trans        &trans  &trans                                                                    &trans  &trans  &trans         &trans     &trans   &trans    &trans
 &kp TAB       &kp Q   &kp W    &kp F     &kp P         &kp B   &trans                                                                    &trans  &kp J   &kp L          &kp U      &kp Y    &kp SEMI  &trans
 &kp ESCAPE    &kp A   &kp R    &kp S     &kp T         &kp G   &trans         &kp LEFT_CONTROL  &trans    &trans  &kp LEFT_SHIFT         &trans  &kp M   &kp N          &kp E      &kp I    &kp O     &trans
 &kp LEFT_ALT  &kp X   &kp C    &kp D     &kp V         &kp Z                                    &trans    &trans                                 &kp K   &kp H          &kp COMMA  &kp DOT  &kp FSLH  &trans
