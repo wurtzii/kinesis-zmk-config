@@ -7,7 +7,7 @@
         compatible = "zmk,combos";
 
         toggle_gaming_combo {
-            bindings = <&tog 1>;
+            bindings = <&tog 0>;
             key-positions = <75 60>;
         };
     };
@@ -19,29 +19,19 @@
             bindings = <
 &trans        &trans  &trans   &trans    &trans        &trans  &trans                                                                    &kp C_VOLUME_UP    &trans  &trans         &trans     &trans   &trans    &trans
 &kp TAB       &kp Q   &kp W    &kp F     &kp P         &kp B   &trans                                                                    &kp C_VOLUME_DOWN  &kp J   &kp L          &kp U      &kp Y    &kp SEMI  &trans
-&kp ESCAPE    &kp A   &kp R    &kp S     &kp T         &kp G   &trans         &kp LEFT_CONTROL  &mo 6     &trans  &kp LEFT_SHIFT         &kp C_MUTE         &kp M   &kp N          &kp E      &kp I    &kp O     &trans
+&kp ESCAPE    &kp A   &kp R    &kp S     &kp T         &kp G   &trans         &kp LEFT_CONTROL  &mo 5     &trans  &kp LEFT_SHIFT         &kp C_MUTE         &kp M   &kp N          &kp E      &kp I    &kp O     &trans
 &kp LEFT_WIN  &kp X   &kp C    &kp D     &kp V         &kp Z                                    &trans    &trans                                            &kp K   &kp H          &kp COMMA  &kp DOT  &kp FSLH  &trans
-&tog 1        &trans  &kp DEL  &kp BSPC  &kp LEFT_ALT                  &mo 3  &kp SPACE         &trans    &trans  &kp RETURN      &mo 2                             &kp RIGHT_ALT  &mo 4      &mo 5    &trans    &trans
-            >;
-        };
-
-        gaming_layer {
-            bindings = <
-&trans      &trans  &trans  &trans  &trans   &trans  &trans                                                              &trans  &trans  &trans    &trans    &trans     &trans  &trans
-&kp TAB     &kp Q   &kp C   &kp E   &kp R    &kp T   &trans                                                              &trans  &trans  &trans    &trans    &trans     &trans  &trans
-&kp ESCAPE  &kp G   &kp A   &kp W   &kp D    &kp F   &trans         &kp LEFT_CONTROL  &trans    &trans  &trans           &trans  &trans  &kp LEFT  &kp UP    &kp RIGHT  &trans  &trans
-&kp LSHIFT  &kp Z   &kp X   &kp S   &kp V    &kp B                                    &trans    &trans                           &trans  &trans    &kp DOWN  &trans     &trans  &trans
-&trans      &trans  &trans  &trans  &kp RET                  &mo 3  &kp SPACE         &trans    &trans  &kp RET  &trans                  &trans    &trans    &trans     &trans  &trans
+&trans        &trans  &kp DEL  &kp BSPC  &kp LEFT_ALT                  &mo 2  &kp SPACE         &trans    &trans  &kp RETURN      &mo 1                             &kp RIGHT_ALT  &mo 3      &mo 4    &trans    &trans
             >;
         };
 
         symbol_layer {
             bindings = <
-&trans  &trans             &trans           &trans        &trans          &trans     &trans                                                    &trans  &trans  &trans                &trans                 &trans          &trans            &trans
-&trans  &kp BACKSLASH      &kp AMPERSAND    &kp ASTERISK  &kp APOSTROPHE  &kp TILDE  &trans                                                    &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDERSCORE  &kp EQUAL         &trans
-&trans  &kp DOUBLE_QUOTES  &kp DOLLAR       &kp PERCENT   &kp CARET       &kp PIPE   &trans          &trans  &trans    &trans  &trans          &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS       &kp PLUS          &trans
-&trans  &trans             &kp EXCLAMATION  &kp AT_SIGN   &kp HASH        &kp GRAVE                          &trans    &trans                          &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN   &kp GREATER_THAN  &trans
-&trans  &trans             &trans           &trans        &trans                             &trans  &trans  &trans    &trans  &trans  &trans                  &trans                &trans                 &trans          &trans            &trans
+&trans  &trans             &trans           &trans        &trans          &trans     &trans                                                    &kp PRINTSCREEN  &trans  &trans                &trans                 &trans          &trans            &trans
+&trans  &kp BACKSLASH      &kp AMPERSAND    &kp ASTERISK  &kp APOSTROPHE  &kp TILDE  &trans                                                    &trans           &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDERSCORE  &kp EQUAL         &trans
+&trans  &kp DOUBLE_QUOTES  &kp DOLLAR       &kp PERCENT   &kp CARET       &kp PIPE   &trans          &trans  &trans    &trans  &trans          &trans           &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS       &kp PLUS          &trans
+&trans  &trans             &kp EXCLAMATION  &kp AT_SIGN   &kp HASH        &kp GRAVE                          &trans    &trans                                   &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN   &kp GREATER_THAN  &trans
+&trans  &trans             &trans           &trans        &trans                             &trans  &trans  &trans    &trans  &trans  &trans                           &trans                &trans                 &trans          &trans            &trans
             >;
         };
 
