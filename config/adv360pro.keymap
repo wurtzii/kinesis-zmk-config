@@ -28,9 +28,9 @@
             bindings = <
 &trans        &trans  &trans   &trans    &trans           &trans  &trans                                                                    &kp C_VOLUME_UP    &trans  &trans           &trans     &trans   &trans    &trans
 &kp TAB       &kp Q   &kp W    &kp F     &kp P            &kp B   &trans                                                                    &kp C_VOLUME_DOWN  &kp J   &kp L            &kp U      &kp Y    &kp SEMI  &trans
-&kp ESCAPE    &kp A   &kp R    &kp S     &kp T            &kp G   &trans         &kp LEFT_CONTROL  &mo 5     &trans  &kp LEFT_SHIFT         &kp C_MUTE         &kp M   &kp N            &kp E      &kp I    &kp O     &trans
-&kp LEFT_ALT  &kp X   &kp C    &kp D     &kp V            &kp Z                                    &trans    &trans                                            &kp K   &kp H            &kp COMMA  &kp DOT  &kp FSLH  &trans
-&trans        &trans  &kp DEL  &kp BSPC  &ctrl_alt_super                  &mo 2  &kp SPACE         &trans    &trans  &kp RETURN      &mo 1                             &ctrl_alt_super  &mo 3      &mo 4    &trans    &trans
+&kp ESCAPE    &kp A   &kp R    &kp S     &kp T            &kp G   &trans         &kp LEFT_SHIFT  &mo 5     &trans  &kp LEFT_CONTROL         &kp C_MUTE         &kp M   &kp N            &kp E      &kp I    &kp O     &trans
+&kp LEFT_ALT  &kp X   &kp C    &kp D     &kp V            &kp Z                                  &trans    &trans                                              &kp K   &kp H            &kp COMMA  &kp DOT  &kp FSLH  &trans
+&trans        &trans  &kp DEL  &kp BSPC  &ctrl_alt_super                  &mo 2  &kp SPACE       &trans    &trans  &kp RETURN        &mo 1                             &ctrl_alt_super  &mo 3      &mo 4    &trans    &trans
             >;
         };
 
